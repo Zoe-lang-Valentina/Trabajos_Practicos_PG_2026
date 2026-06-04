@@ -1,12 +1,13 @@
 //Declarar Variable
 let Hachi
 
-//Asignar Valor
-Hachi = 10
 
-//Declarar y asignar al mismo tiempo
+//Asignar Valor
+
 let ware
 ware = 10
+let Nombre_Alumno = "Gaston" 
+let Apellido_Alumno = "Schafe"
+let Edad_Alumno = 67
 
-//Mostrar la informacion 
- console.log(Hachi);
+console.log("El Alumno: " + Nombre_Alumno + " " + Apellido_Alumno + " " + Edad_Alumno)
