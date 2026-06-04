@@ -1,11 +1,20 @@
+//Declarar variable
+let num1 = 67
+let num2 = 1
+
+//Asignar Funcion
+ Suma = num1 + num2
+ Resta = num1 - num2
+ Multiplicacion = num1 * num2
+ Division = num1 / num2 
+
+console.log( "El resultado de la multiplicacion es:" + Multiplicacion)
+console.log("El resultado de la division es:" + Division)
+ alert("El resultado de la suma es:" + Suma )
+ alert( "El resultado de la resta es:" +Resta )
+
 //Declarar Variable
-let Hachi
 
-
-//Asignar Valor
-
-let ware
-ware = 10
 let Nombre_Alumno = "Gaston" 
 let Apellido_Alumno = "Schafe"
 let Edad_Alumno = 67
