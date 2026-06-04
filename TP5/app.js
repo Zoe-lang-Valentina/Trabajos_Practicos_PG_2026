@@ -20,3 +20,9 @@ let Apellido_Alumno = "Schafe"
 let Edad_Alumno = 67
 
 console.log("El Alumno: " + Nombre_Alumno + " " + Apellido_Alumno + " " + Edad_Alumno)
+
+let precio1 = 89
+let precio2 = 40
+let precio3 = 23
+Total = precio1 + precio2 + precio3
+console.log( Total )
