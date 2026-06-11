@@ -26,3 +26,12 @@ let precio2 = 40
 let precio3 = 23
 Total = precio1 + precio2 + precio3
 console.log( Total )
+
+let Comida_favorita = "los canelones"
+let Color_favorito = "verde"
+let Numeros_favorito = 23
+
+console.log("Mi comida favorita es" + Comida_favorita + "me gusta el color"+colorfavorito+"y mi número favorito es" + numerofavorito)
+
+let Pais= "Argentina"
+console.log(Pais)
