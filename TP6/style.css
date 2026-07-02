@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+}
+
+p{
+font-size: 20px;
+color: rgb(255, 225, 169);
+}
+button{
+    background-color: rgb(255, 225, 169) ;
+    color: crimson;
+    padding:20px;
+    border: none;
+    border-radius: 35px;
+}
+button:hover{
+    transform: scale(1.1) rotate(2deg);
+}
