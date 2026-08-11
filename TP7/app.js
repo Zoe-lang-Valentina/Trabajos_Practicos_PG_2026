@@ -43,15 +43,30 @@ b4.onclick = function () {
     }
 }
 
-//        ;3
+//       ;3
 
 let ej5 = document.querySelector('#ej5')
 let b5= document.querySelector('#b5')
-let Edad = 40
+let Edad = 67
 
-if ((Edad > 6) && (Edad < 10)){
-    ej5.textContent= 'Usted esun niño'
+b5.onclick = function(){
+    if ((Edad > 6) && (Edad < 10)){
+        ej5.textContent = 'Usted es un niño'
+    }
+    else if ((Edad > 6) && (Edad < 10)){
+       ej5.textContent = 'Usted es un Adolescente'
+    }
+    else if ((Edad > 19) && (Edad < 26)){
+        ej5.textContent = 'Usted es un Joven'
+     }
+     else if ((Edad > 27) && (Edad < 59)){
+        ej5.textContent = 'Usted es un Adulto'
+     }
+     else if (Edad >= 60){
+        ej5.textContent = 'Usted ya es un fosil '
+     }
 }
-else if ((Edad > 6) && (Edad < 10)){
-   ej5.textContent
-}
+//      :o
+
+let ej6 = document.querySelector('#ej6')
+let b6= document.querySelector('#b6')
