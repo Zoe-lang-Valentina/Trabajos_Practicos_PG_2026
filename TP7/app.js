@@ -70,3 +70,27 @@ b5.onclick = function(){
 
 let ej6 = document.querySelector('#ej6')
 let b6= document.querySelector('#b6')
+let dia = 'martes'
+
+b6.onclick = function(){
+if ((dia == 'lunes')  || (dia =='martes')  || (dia =='miercoles')  || (dia == 'jueves')  || (dia == 'viernes')){
+    ej6.textContent =  'Hora de ir a trabajar,artiba ese poto' }
+    else if (( dia == 'sabado') || (dia == 'domingo')) 
+    {
+        ej6.textContent = 'Ya puedes descansar tu poto'
+     }
+}
+//      ;)
+
+let ej7 = document.querySelector('#ej7')
+let b7= document.querySelector('#b7')
+let contraseña = 'muy secreta 👀'
+
+b7.onclick = function (){
+    if (contraseña = 'muy secreto 👀'){
+        ej7.textContent = 'Acceso consedido'}
+        else {
+            ej7.textContent = 'Acceso denegado 😡'
+        }
+
+}
