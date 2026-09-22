@@ -5,13 +5,13 @@ Boton.onclick = function (){
     cokie = cokie + 1
     Cookies.textContent = cokie + ' cookies'
     if (cokie == 10) {
-    Cookies.style.color = 'red'    
+    Cookies.style.color = 'green'    
     } 
      if (cokie == 20) {
-        Cookies.style.color = 'orange'    
+        Cookies.style.color = 'blue'    
     }
-    if (cokie == 50){
-        Cookies.style.color = 'green'    
+    if (cokie == 30){
+        Cookies.style.color = 'red'    
     }
     
 } 
