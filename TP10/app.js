@@ -44,4 +44,17 @@ console.log(productos.length);
 //activiti 3 (ˉ﹃ˉ)
 let electro = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"];
 
-let electro.
+let pos = electro.indexOf("Mouse")
+console.log(electro)
+
+//activiti 4 :p
+
+let videojuegos = ["Minecraft","Pokémon Cristal","Super Mario","The Legend of Zelda","Sonic"];
+
+console.log(videojuegos)
+console.log(videojuegos.length);
+
+videojuegos.push("Animal Crossing")
+videojuegos.push("Pokemon Rojo")
+console.log(videojuegos)
+
