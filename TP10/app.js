@@ -120,3 +120,15 @@ console.log(tareas)
 console.log(tareas.indexOf('Estudiar'))
 console.log(tareas.indexOf('Preparar la cena'))
 console.log(tareas.indexOf('Lavar el auto'))
+
+console.log(tareas[tareas.length - 1])
+tareas.pop()
+
+console.log(tareas[tareas.length - 1])
+tareas.shift() 
+
+tareas.push('Leer un libro')
+tareas.unshift('Hacer ejercicio')
+
+console.log(tareas)
+console.log(tareas.length)
