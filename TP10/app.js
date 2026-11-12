@@ -44,7 +44,29 @@ console.log(productos.length);
 //activiti 3 (ˉ﹃ˉ)
 let electro = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"];
 
-let pos = electro.indexOf("Mouse")
+console.log(electro.indexOf('Mouse'))
+console.log(electro.indexOf('Monitor'))
+console.log(electro.indexOf('Webcam'))
+console.log(electro.indexOf('Impresora'))
+
+console.log(electro.indexOf('Teclado'))
+let posicion1 = electro.indexOf('Teclado')
+ if (posicion == 7) {
+      'Teclado esta en la lista'
+ } else {
+     'Teclado no esta en la lista'
+ }
+
+ console.log(electro.indexOf('Impresora'))
+ let posicion1 = electro.indexOf('Impresora')
+  if (posicion == 7) {
+       'Impresora esta en la lista'
+  } else {
+      'Impresora no esta en la lista'
+  }
+  
+electro.push('Impresora')
+console.log(electro.indexOf('Impresora'))
 console.log(electro)
 
 //activiti 4 :p
@@ -69,7 +91,7 @@ console.log(videojuegos.indexOf('FIFA'))
 console.log(videojuegos[videojuegos.length - 1])
 videojuegos.pop()
 
-console.log(videojuegos[videojuegos.length - 1])
+console.log(videojuegos[0])
 videojuegos.shift() 
 
 console.log(videojuegos)
@@ -94,7 +116,7 @@ console.log(estudiantes.indexOf('Sofía'))
 console.log(estudiantes.indexOf('Camila'))
 console.log(estudiantes.indexOf('Federico'))
 
-console.log(estudiantes[estudiantes [0] ])
+console.log(estudiantes[0])
 estudiantes.shift()
 
 console.log(estudiantes[estudiantes.lenght - 1])
@@ -124,7 +146,7 @@ console.log(tareas.indexOf('Lavar el auto'))
 console.log(tareas[tareas.length - 1])
 tareas.pop()
 
-console.log(tareas[tareas.length - 1])
+console.log(tareas[0])
 tareas.shift() 
 
 tareas.push('Leer un libro')
@@ -132,3 +154,85 @@ tareas.unshift('Hacer ejercicio')
 
 console.log(tareas)
 console.log(tareas.length)
+
+// activiti 7 (⊙_⊙;)
+
+let peliculas = ["Toy Story","Shrek","Buscando a Nemo","Los Increíbles","Ratatouille"];
+
+console.log(peliculas)
+console.log(peliculas.length)
+
+peliculas.push('Cars')
+peliculas.push('Monster Inc')
+console.log(peliculas)
+
+peliculas.unshift('Intensamente')
+peliculas.unshift('Coco')
+console.log(peliculas)
+
+console.log(peliculas.indexOf('Shrek'))
+console.log(peliculas.indexOf('Coco'))
+console.log(peliculas.indexOf('Frozen'))
+
+console.log(peliculas.indexOf('Cars'))
+let posicion = peliculas.indexOf('Cars')
+ if (posicion == 7) {
+      'Cars esta en la lista'
+ } else {
+     'Cars no esta en la lista'
+ }
+
+console.log(peliculas[peliculas.length - 1])
+peliculas.pop()
+
+console.log(peliculas[0])
+peliculas.shift()
+
+peliculas.push('Up')
+console.log(peliculas.indexOf('Up'))
+
+console.log(peliculas)
+console.log(peliculas.length)
+
+// Activiti 8! ~(>_<。)＼
+
+let productosTienda = ["Celular","Notebook","Tablet","Teclado","Mouse"];
+
+console.log(productosTienda)
+console.log(productosTienda.length)
+
+productosTienda.push('Monitor')
+productosTienda.push('Impresora')
+productosTienda.unshift('Camara Web')
+productosTienda.unshift('Microfono')
+
+console.log(productosTienda)
+console.log(productosTienda.length)
+
+console.log(productosTienda.indexOf('Notebook'))
+console.log(productosTienda.indexOf('Microfono'))
+console.log(productosTienda.indexOf('Parlantes'))
+
+console.log(productosTienda[productosTienda.length - 1])
+peliculas.pop()
+
+console.log(productosTienda[0])
+peliculas.shift()
+
+console.log(productosTienda)
+
+productosTienda.push('Parlantes')
+productosTienda.unshift('Audiculares')
+
+console.log(productosTienda.indexOf('Parlantes'))
+console.log(productosTienda.indexOf('Audiculares'))
+console.log(productosTienda.indexOf('Celular'))
+
+console.log(productosTienda[productosTienda.length - 1])
+peliculas.pop()
+
+console.log(productosTienda[0])
+peliculas.shift()
+
+console.log(productosTienda)
+console.log(productosTienda.length)
